@@ -1,5 +1,4 @@
-const API_URL =
-  "https://1802-2405-4803-fbac-7a40-1031-8eba-9a83-954f.ap.ngrok.io";
+const API_URL = "https://shopify-intern-challenge-2022.thaipham98.repl.co";
 
 export const getItemList = async () => {
   const response = await fetch(`${API_URL}/items`, {
